@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сведения об образовательной организации — УЦ «MAXIMUM»</title>
+  <meta name="description" content="Сведения об образовательной организации ИП Максимов К.С. (УЦ «MAXIMUM») в соответствии с Приказом Рособрнадзора от 04.08.2023 № 1493.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Перейти к содержимому</a>
+
+  <!-- ===== TOP BAR ===== -->
+  <div class="top-bar" id="top-bar">
+    <div class="container">
+      <div class="top-bar__contacts">
+        <a href="tel:89124638632" id="top-phone">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          8 (912) 463-86-32
+        </a>
+        <a href="mailto:tehtrud@yandex.ru" id="top-email">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          tehtrud@yandex.ru
+        </a>
+      </div>
+      <div class="top-bar__schedule">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg>
+        Пн–Пт: 9:00 – 18:00
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="index.html" class="header__logo" id="logo-link">
+        <div class="header__logo-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+        </div>
+        <div class="header__logo-text">
+          <span class="header__logo-name">УЦ MAXIMUM</span>
+          <span class="header__logo-desc">Учебный центр охраны труда</span>
+        </div>
+      </a>
+
+      <nav class="nav" id="main-nav">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link" id="nav-home">Главная</a></li>
+          <li><a href="svedeniya.html" class="nav__link nav__link--active" id="nav-svedeniya">Сведения</a></li>
+          <li><a href="#education" class="nav__link svedeniya-tab-link" id="nav-programs">Программы</a></li>
+          <li><a href="#documents" class="nav__link svedeniya-tab-link" id="nav-docs">Документы</a></li>
+          <li><a href="index.html#contacts" class="nav__link" id="nav-contacts">Контакты</a></li>
+        </ul>
+        <a href="index.html#callback" class="nav__cta" id="nav-cta-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57-.35-.11-.74-.03-1.02.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z"/></svg>
+          Записаться
+        </a>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Открыть меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <div class="overlay" id="overlay"></div>
+
+  <!-- ===== PAGE HERO ===== -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero__breadcrumbs">
+        <a href="index.html">Главная</a>
+        <span class="sep">→</span>
+        <span>Сведения об образовательной организации</span>
+      </div>
+      <h1 class="page-hero__title">Сведения об образовательной организации</h1>
+      <p class="page-hero__subtitle">Информация размещена в соответствии с Приказом Рособрнадзора от 04.08.2023 № 1493</p>
+    </div>
+  </section>
+
+  <!-- ===== SUBSECTION NAVIGATION ===== -->
+  <nav class="svedeniya-nav" id="svedeniya-nav">
+    <div class="container">
+      <a href="#basic" class="svedeniya-nav__link svedeniya-nav__link--active" data-tab="basic" id="tab-basic">Основные сведения</a>
+      <a href="#structure" class="svedeniya-nav__link" data-tab="structure" id="tab-structure">Структура и органы управления</a>
+      <a href="#documents" class="svedeniya-nav__link" data-tab="documents" id="tab-documents">Документы</a>
+      <a href="#education" class="svedeniya-nav__link" data-tab="education" id="tab-education">Образование</a>
+      <a href="#standards" class="svedeniya-nav__link" data-tab="standards" id="tab-standards">Образовательные стандарты</a>
+      <a href="#management" class="svedeniya-nav__link" data-tab="management" id="tab-management">Руководство</a>
+      <a href="#staff" class="svedeniya-nav__link" data-tab="staff" id="tab-staff">Педагогический состав</a>
+      <a href="#facilities" class="svedeniya-nav__link" data-tab="facilities" id="tab-facilities">Мат.-тех. обеспечение</a>
+      <a href="#scholarships" class="svedeniya-nav__link" data-tab="scholarships" id="tab-scholarships">Стипендии и поддержка</a>
+      <a href="#paid" class="svedeniya-nav__link" data-tab="paid" id="tab-paid">Платные услуги</a>
+      <a href="#finance" class="svedeniya-nav__link" data-tab="finance" id="tab-finance">Финансовая деятельность</a>
+      <a href="#vacancies" class="svedeniya-nav__link" data-tab="vacancies" id="tab-vacancies">Вакантные места</a>
+      <a href="#international" class="svedeniya-nav__link" data-tab="international" id="tab-international">Международное сотрудничество</a>
+    </div>
+  </nav>
+
+  <!-- ===== CONTENT ===== -->
+  <main class="svedeniya-content" id="main-content">
+    <div class="container">
+
+      <!-- ============================== -->
+      <!-- 1. ОСНОВНЫЕ СВЕДЕНИЯ           -->
+      <!-- ============================== -->
+      <div class="subsection subsection--active" id="basic" data-section="basic">
+        <h2 class="subsection__title">Основные сведения</h2>
+
+        <table class="info-table">
+          <tbody>
+            <tr>
+              <td>Полное наименование</td>
+              <td>Индивидуальный предприниматель Максимов Кирилл Сергеевич</td>
+            </tr>
+            <tr>
+              <td>Сокращённое наименование</td>
+              <td>ИП Максимов К.С. (Учебный центр «MAXIMUM»)</td>
+            </tr>
+            <tr>
+              <td>Дата создания</td>
+              <td>2024 год</td>
+            </tr>
+            <tr>
+              <td>Учредитель</td>
+              <td>Максимов Кирилл Сергеевич</td>
+            </tr>
+            <tr>
+              <td>Место нахождения</td>
+              <td>427145, УР, Игринский район, п. Игра, ул. Радужная, д.31</td>
+            </tr>
+            <tr>
+              <td>Филиалы и представительства</td>
+              <td>Филиалов и представительств нет</td>
+            </tr>
+            <tr>
+              <td>Режим работы</td>
+              <td>Понедельник – Пятница: 9:00 – 18:00<br>Суббота, Воскресенье: выходной</td>
+            </tr>
+            <tr>
+              <td>График работы</td>
+              <td>Пятидневная рабочая неделя с двумя выходными днями</td>
+            </tr>
+            <tr>
+              <td>Контактный телефон</td>
+              <td><a href="tel:89124638632">8 (912) 463-86-32</a></td>
+            </tr>
+            <tr>
+              <td>Факс</td>
+              <td>—</td>
+            </tr>
+            <tr>
+              <td>Электронная почта</td>
+              <td><a href="mailto:tehtrud@yandex.ru">tehtrud@yandex.ru</a></td>
+            </tr>
+            <tr>
+              <td>Официальный сайт</td>
+              <td><a href="index.html">www.уц-максимум.рф</a></td>
+            </tr>
+            <tr>
+              <td>ИНН</td>
+              <td>180904433971</td>
+            </tr>
+            <tr>
+              <td>ОГРНИП</td>
+              <td>324180000025830</td>
+            </tr>
+            <tr>
+              <td>Банковские реквизиты</td>
+              <td>
+                <strong>Банк:</strong> ФИЛИАЛ «НИЖЕГОРОДСКИЙ» АО «АЛЬФА-БАНК»<br>
+                <strong>Расчётный счёт:</strong> 40802810329850007010<br>
+                <strong>Корр. счёт:</strong> 30101810200000000824<br>
+                <strong>БИК:</strong> 042202824<br><br>
+                <strong>Банк:</strong> УДМУРТСКОЕ ОТДЕЛЕНИЕ N8618 ПАО СБЕРБАНК<br>
+                <strong>Расчётный счёт:</strong> 40802810268000037967<br>
+                <strong>Корр. счёт:</strong> 30101810400000000601<br>
+                <strong>БИК:</strong> 049401601
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- ============================== -->
+      <!-- 2. СТРУКТУРА И ОРГАНЫ УПРАВЛ.   -->
+      <!-- ============================== -->
+      <div class="subsection" id="structure" data-section="structure">
+        <h2 class="subsection__title">Структура и органы управления образовательной организацией</h2>
+
+        <div class="info-card">
+          <div class="info-card__header">
+            <div class="info-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M22 11V3h-7v3H9V3H2v8h7V8h2v10h4v3h7v-8h-7v3h-2V8h2v3h7zM7 9H4V5h3v4zm10 6h3v4h-3v-4zm0-10h3v4h-3V5z"/></svg>
+            </div>
+            <h3 class="info-card__title">Структура организации</h3>
+          </div>
+          <div class="info-card__content">
+            <p>Управление образовательной организацией осуществляется в соответствии с законодательством Российской Федерации и Уставом организации.</p>
+          </div>
+        </div>
+
+        <table class="info-table">
+          <thead>
+            <tr>
+              <th>Структурное подразделение</th>
+              <th>Руководитель</th>
+              <th>Контакты</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Дирекция</td>
+              <td>Максимов Кирилл Сергеевич, директор</td>
+              <td><a href="tel:89124638632">8 (912) 463-86-32</a><br><a href="mailto:tehtrud@yandex.ru">tehtrud@yandex.ru</a></td>
+            </tr>
+            <tr>
+              <td>Учебно-методический отдел</td>
+              <td>Сидорова Елена Михайловна, руководитель УМО</td>
+              <td><a href="tel:+74951234569">+7 (495) 123-45-69</a><br><a href="mailto:umo@profbez-ot.ru">umo@profbez-ot.ru</a></td>
+            </tr>
+            <tr>
+              <td>Отдел по работе с клиентами</td>
+              <td>Козлова Анна Дмитриевна, руководитель</td>
+              <td><a href="tel:+74951234570">+7 (495) 123-45-70</a><br><a href="mailto:clients@profbez-ot.ru">clients@profbez-ot.ru</a></td>
+            </tr>
+            <tr>
+              <td>Бухгалтерия</td>
+              <td>Новикова Ольга Петровна, главный бухгалтер</td>
+              <td><a href="tel:+74951234571">+7 (495) 123-45-71</a><br><a href="mailto:buh@profbez-ot.ru">buh@profbez-ot.ru</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="info-card">
+          <div class="info-card__header">
+            <div class="info-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+            </div>
+            <h3 class="info-card__title">Органы управления</h3>
+          </div>
+          <div class="info-card__content">
+            <p><strong>Единоличный исполнительный орган:</strong> Директор — Максимов Кирилл Сергеевич</p>
+            <p><strong>Коллегиальный орган управления:</strong> Педагогический совет</p>
+            <p>Адрес: 427145, УР, Игринский район, п. Игра, ул. Радужная, д.31</p>
+            <p>Телефон: <a href="tel:89124638632">8 (912) 463-86-32</a></p>
+            <p>Email: <a href="mailto:tehtrud@yandex.ru">tehtrud@yandex.ru</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================== -->
+      <!-- 3. ДОКУМЕНТЫ                    -->
+      <!-- ============================== -->
+      <div class="subsection" id="documents" data-section="documents">
+        <h2 class="subsection__title">Документы</h2>
+
+        <div class="doc-list">
+          <a href="#" class="doc-link" id="doc-ustav">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <span class="doc-link__name">Устав образовательной организации</span>
+            <span class="doc-link__size">PDF, 1.2 МБ</span>
+          </a>
+          <a href="#" class="doc-link" id="doc-license">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <span class="doc-link__name">Лицензия на осуществление образовательной деятельности (с приложениями)</span>
+            <span class="doc-link__size">PDF, 2.4 МБ</span>
+          </a>
+          <a href="#" class="doc-link" id="doc-plan">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <span class="doc-link__name">План финансово-хозяйственной деятельности</span>
+            <span class="doc-link__size">PDF, 890 КБ</span>
+          </a>
+          <a href="#" class="doc-link" id="doc-local-acts">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <span class="doc-link__name">Локальные нормативные акты, регламентирующие образовательную деятельность</span>
+            <span class="doc-link__size">PDF, 560 КБ</span>
+          </a>
+          <a href="#" class="doc-link" id="doc-rules">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <span class="doc-link__name">Правила приёма обучающихся</span>
+            <span class="doc-link__size">PDF, 320 КБ</span>
+          </a>
+          <a href="#" class="doc-link" id="doc-internal">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <span class="doc-link__name">Правила внутреннего распорядка обучающихся</span>
+            <span class="doc-link__size">PDF, 280 КБ</span>
+          </a>
+          <a href="#" class="doc-link" id="doc-labor">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <span class="doc-link__name">Правила внутреннего трудового распорядка</span>
+            <span class="doc-link__size">PDF, 310 КБ</span>
+          </a>
+          <a href="#" class="doc-link" id="doc-contract">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <span class="doc-link__name">Образец договора об оказании платных образовательных услуг</span>
+            <span class="doc-link__size">PDF, 450 КБ</span>
+          </a>
+          <a href="#" class="doc-link" id="doc-result">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <span class="doc-link__name">Отчёт о результатах самообследования</span>
+            <span class="doc-link__size">PDF, 1.8 МБ</span>
+          </a>
+          <a href="#" class="doc-link" id="doc-predpisaniya">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <span class="doc-link__name">Предписания органов, осуществляющих государственный контроль (надзор) — предписания отсутствуют</span>
+            <span class="doc-link__size">—</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ============================== -->
+      <!-- 4. ОБРАЗОВАНИЕ                 -->
+      <!-- ============================== -->
+      <div class="subsection" id="education" data-section="education">
+        <h2 class="subsection__title">Образование</h2>
+
+        <div class="info-card">
+          <div class="info-card__header">
+            <div class="info-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+            </div>
+            <h3 class="info-card__title">Уровень образования и формы обучения</h3>
+          </div>
+          <div class="info-card__content">
+            <p><strong>Уровень образования:</strong> Дополнительное профессиональное образование</p>
+            <p><strong>Формы обучения:</strong> Очная, очно-заочная (с применением дистанционных образовательных технологий)</p>
+            <p><strong>Язык обучения:</strong> Русский</p>
+            <p><strong>Государственная аккредитация:</strong> Программы дополнительного профессионального образования государственной аккредитации не подлежат (в соответствии с ч. 1 ст. 92 Федерального закона «Об образовании в Российской Федерации» от 29.12.2012 № 273-ФЗ)</p>
+          </div>
+        </div>
+
+        <h3 style="font-size:1.125rem;font-weight:700;margin:var(--space-xl) 0 var(--space-md);color:var(--gray-900)">Реализуемые образовательные программы</h3>
+
+        <table class="info-table">
+          <thead>
+            <tr>
+              <th>№</th>
+              <th>Наименование программы</th>
+              <th>Объём (часы)</th>
+              <th>Срок обучения</th>
+              <th>Форма</th>
+              <th>Выдаваемый документ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Охрана труда для руководителей и специалистов организаций</td>
+              <td>40</td>
+              <td>5 дней</td>
+              <td>Очная / дистанц.</td>
+              <td>Удостоверение, протокол</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Обучение безопасным методам и приёмам выполнения работ на высоте</td>
+              <td>24</td>
+              <td>3 дня</td>
+              <td>Очная</td>
+              <td>Удостоверение, протокол</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Обучение оказанию первой помощи пострадавшим</td>
+              <td>16</td>
+              <td>2 дня</td>
+              <td>Очная</td>
+              <td>Протокол</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Пожарная безопасность для руководителей и ответственных лиц</td>
+              <td>28</td>
+              <td>4 дня</td>
+              <td>Очная / дистанц.</td>
+              <td>Удостоверение, протокол</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Промышленная безопасность (подготовка к аттестации)</td>
+              <td>72</td>
+              <td>9 дней</td>
+              <td>Очная / дистанц.</td>
+              <td>Протокол</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Электробезопасность (II–V группы допуска)</td>
+              <td>40</td>
+              <td>5 дней</td>
+              <td>Очная / дистанц.</td>
+              <td>Удостоверение, протокол</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Обучение использованию (применению) средств индивидуальной защиты</td>
+              <td>16</td>
+              <td>2 дня</td>
+              <td>Очная</td>
+              <td>Протокол</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Обучение по общим вопросам охраны труда и функционирования СУОТ</td>
+              <td>16</td>
+              <td>2 дня</td>
+              <td>Очная / дистанц.</td>
+              <td>Протокол</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="info-card">
+          <div class="info-card__header">
+            <div class="info-card__icon">
+              <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+            </div>
+            <h3 class="info-card__title">Численность обучающихся</h3>
+          </div>
+          <div class="info-card__content">
+            <p><strong>Общая численность обучающихся за 2025 год:</strong> 1 240 человек</p>
+            <p><strong>За счёт бюджетных ассигнований:</strong> 0 человек</p>
+            <p><strong>По договорам об оказании платных образовательных услуг:</strong> 1 240 человек</p>
+            <p><strong>Численность обучающихся, являющихся иностранными гражданами:</strong> 0 человек</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================== -->
+      <!-- 5. ОБРАЗОВАТЕЛЬНЫЕ СТАНДАРТЫ    -->
+      <!-- ============================== -->
+      <div class="subsection" id="standards" data-section="standards">
+        <h2 class="subsection__title">Образовательные стандарты и требования</h2>
+
+        <div class="info-card">
+          <div class="info-card__content">
+            <p>Учебный центр «MAXIMUM» реализует программы дополнительного профессионального образования (программы повышения квалификации), которые разработаны в соответствии с:</p>
+            <p>• Федеральным законом от 29.12.2012 № 273-ФЗ «Об образовании в Российской Федерации»;</p>
+            <p>• Постановлением Правительства РФ от 24.12.2021 № 2464 «О порядке обучения по охране труда и проверки знания требований охраны труда»;</p>
+            <p>• Приказом Минтруда России от 29.10.2021 № 773н «Об утверждении форм (способов) информирования работников об их трудовых правах»;</p>
+            <p>• Приказом МЧС России от 18.11.2021 № 806 «Об определении порядка, видов, сроков обучения лиц мерам пожарной безопасности»;</p>
+            <p>• Иными нормативными правовыми актами Российской Федерации в области охраны труда и безопасности.</p>
+            <p style="margin-top:var(--space-md)">Федеральные государственные образовательные стандарты к программам дополнительного профессионального образования не применяются.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================== -->
+      <!-- 6. РУКОВОДСТВО                  -->
+      <!-- ============================== -->
+      <div class="subsection" id="management" data-section="management">
+        <h2 class="subsection__title">Руководство образовательной организацией</h2>
+
+        <table class="info-table">
+          <thead>
+            <tr>
+              <th>ФИО</th>
+              <th>Должность</th>
+              <th>Контакты</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Максимов Кирилл Сергеевич</td>
+              <td>Директор</td>
+              <td>Тел.: <a href="tel:89124638632">8 (912) 463-86-32</a><br>Email: <a href="mailto:tehtrud@yandex.ru">tehtrud@yandex.ru</a></td>
+            </tr>
+            <tr>
+              <td>Сидорова Елена Михайловна</td>
+              <td>Заместитель директора по учебно-методической работе</td>
+              <td>Тел.: <a href="tel:+74951234569">+7 (495) 123-45-69</a><br>Email: <a href="mailto:umo@profbez-ot.ru">umo@profbez-ot.ru</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- ============================== -->
+      <!-- 7. ПЕДАГОГИЧЕСКИЙ СОСТАВ        -->
+      <!-- ============================== -->
+      <div class="subsection" id="staff" data-section="staff">
+        <h2 class="subsection__title">Педагогический (преподавательский) состав</h2>
+
+        <div class="staff-grid">
+          <div class="staff-card">
+            <div class="staff-card__avatar">ИВ</div>
+            <div class="staff-card__name">Иванов Виктор Николаевич</div>
+            <div class="staff-card__position">Преподаватель по охране труда</div>
+            <dl class="staff-card__details">
+              <dt>Образование:</dt>
+              <dd>Высшее, МГТУ им. Н.Э. Баумана, специальность «Безопасность технологических процессов и производств», квалификация — инженер</dd>
+              <dt>Стаж работы:</dt>
+              <dd>Общий — 18 лет, педагогический — 12 лет</dd>
+              <dt>Повышение квалификации:</dt>
+              <dd>2024 г. — «Современные методы обучения охране труда» (72 ч.)</dd>
+              <dt>Преподаваемые дисциплины:</dt>
+              <dd>Охрана труда, СУОТ, оценка профрисков</dd>
+            </dl>
+          </div>
+
+          <div class="staff-card">
+            <div class="staff-card__avatar">МА</div>
+            <div class="staff-card__name">Морозова Анастасия Павловна</div>
+            <div class="staff-card__position">Преподаватель по пожарной безопасности</div>
+            <dl class="staff-card__details">
+              <dt>Образование:</dt>
+              <dd>Высшее, Академия ГПС МЧС России, специальность «Пожарная безопасность», квалификация — инженер</dd>
+              <dt>Стаж работы:</dt>
+              <dd>Общий — 15 лет, педагогический — 9 лет</dd>
+              <dt>Повышение квалификации:</dt>
+              <dd>2025 г. — «Обучение мерам пожарной безопасности» (40 ч.)</dd>
+              <dt>Преподаваемые дисциплины:</dt>
+              <dd>Пожарная безопасность, эвакуация, ПТМ</dd>
+            </dl>
+          </div>
+
+          <div class="staff-card">
+            <div class="staff-card__avatar">КД</div>
+            <div class="staff-card__name">Кравцов Дмитрий Олегович</div>
+            <div class="staff-card__position">Преподаватель по промышленной безопасности</div>
+            <dl class="staff-card__details">
+              <dt>Образование:</dt>
+              <dd>Высшее, РГУ нефти и газа им. И.М. Губкина, специальность «Безопасность жизнедеятельности», к.т.н.</dd>
+              <dt>Стаж работы:</dt>
+              <dd>Общий — 20 лет, педагогический — 14 лет</dd>
+              <dt>Учёная степень:</dt>
+              <dd>Кандидат технических наук</dd>
+              <dt>Преподаваемые дисциплины:</dt>
+              <dd>Промышленная безопасность, электробезопасность</dd>
+            </dl>
+          </div>
+
+          <div class="staff-card">
+            <div class="staff-card__avatar">ЛС</div>
+            <div class="staff-card__name">Лебедева Светлана Игоревна</div>
+            <div class="staff-card__position">Преподаватель по оказанию первой помощи</div>
+            <dl class="staff-card__details">
+              <dt>Образование:</dt>
+              <dd>Высшее, Первый МГМУ им. И.М. Сеченова, специальность «Лечебное дело», квалификация — врач</dd>
+              <dt>Стаж работы:</dt>
+              <dd>Общий — 22 года, педагогический — 10 лет</dd>
+              <dt>Повышение квалификации:</dt>
+              <dd>2025 г. — «Методика обучения приёмам оказания первой помощи» (40 ч.)</dd>
+              <dt>Преподаваемые дисциплины:</dt>
+              <dd>Первая помощь пострадавшим на производстве</dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================== -->
+      <!-- 8. МАТ.-ТЕХ. ОБЕСПЕЧЕНИЕ      -->
+      <!-- ============================== -->
+      <div class="subsection" id="facilities" data-section="facilities">
+        <h2 class="subsection__title">Материально-техническое обеспечение и оснащённость образовательного процесса. Доступная среда</h2>
+
+        <table class="info-table">
+          <thead>
+            <tr>
+              <th>Наименование</th>
+              <th>Описание</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Учебные кабинеты</td>
+              <td>2 оборудованных учебных класса на 20 и 15 посадочных мест. Оснащены мультимедийными проекторами, интерактивными досками, ноутбуками для слушателей</td>
+            </tr>
+            <tr>
+              <td>Компьютерное оборудование</td>
+              <td>Компьютерный класс: 15 рабочих станций с доступом к Интернет, принтер, МФУ</td>
+            </tr>
+            <tr>
+              <td>Учебно-наглядные пособия</td>
+              <td>Тренажёры-манекены для отработки приёмов первой помощи (3 шт.), плакаты по охране труда, средства индивидуальной защиты (каски, страховочные привязи, респираторы) для демонстрации</td>
+            </tr>
+            <tr>
+              <td>Библиотечный фонд</td>
+              <td>Учебно-методическая литература по охране труда, пожарной и промышленной безопасности — более 200 наименований. Доступ к электронной библиотечной системе</td>
+            </tr>
+            <tr>
+              <td>Электронная информационно-образовательная среда</td>
+              <td>Система дистанционного обучения (СДО) на базе платформы Moodle. Включает учебные материалы, видеолекции, тесты для промежуточного и итогового контроля</td>
+            </tr>
+            <tr>
+              <td>Условия питания</td>
+              <td>В здании имеется буфет. В шаговой доступности — кафе и столовые</td>
+            </tr>
+            <tr>
+              <td>Условия охраны здоровья</td>
+              <td>Аптечки первой помощи в каждом учебном классе. Заключён договор с медицинской организацией на оказание первой медицинской помощи</td>
+            </tr>
+            <tr>
+              <td>Доступная среда</td>
+              <td>Здание оборудовано пандусом при входе. Имеется кнопка вызова помощи для маломобильных граждан. Обеспечена возможность дистанционного обучения для лиц с ОВЗ</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- ============================== -->
+      <!-- 9. СТИПЕНДИИ И ПОДДЕРЖКА       -->
+      <!-- ============================== -->
+      <div class="subsection" id="scholarships" data-section="scholarships">
+        <h2 class="subsection__title">Стипендии и меры поддержки обучающихся</h2>
+
+        <div class="info-card">
+          <div class="info-card__content">
+            <p><strong>Стипендии:</strong> Выплата стипендий обучающимся не предусмотрена.</p>
+            <p><strong>Общежитие/интернат:</strong> Общежитие и интернат отсутствуют. Наличие общежития и интерната не предусмотрено.</p>
+            <p><strong>Трудоустройство выпускников:</strong> Содействие в трудоустройстве выпускников не осуществляется, так как обучающиеся являются работниками направляющих организаций.</p>
+            <p><strong>Меры социальной поддержки:</strong></p>
+            <p>• Для лиц с ограниченными возможностями здоровья предусмотрена возможность обучения в дистанционном формате;</p>
+            <p>• Корпоративным клиентам при обучении группы от 10 человек предоставляется скидка 10%.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================== -->
+      <!-- 10. ПЛАТНЫЕ ОБРАЗ. УСЛУГИ      -->
+      <!-- ============================== -->
+      <div class="subsection" id="paid" data-section="paid">
+        <h2 class="subsection__title">Платные образовательные услуги</h2>
+
+        <div class="info-card" style="margin-bottom:var(--space-lg)">
+          <div class="info-card__content">
+            <p>Образовательная организация оказывает платные образовательные услуги на основании договора об оказании платных образовательных услуг в соответствии с Постановлением Правительства РФ от 15.09.2020 № 1441.</p>
+            <p>Увеличение стоимости платных образовательных услуг после заключения договора не допускается, за исключением случаев, предусмотренных законодательством.</p>
+          </div>
+        </div>
+
+        <table class="info-table">
+          <thead>
+            <tr>
+              <th>№</th>
+              <th>Наименование программы</th>
+              <th>Стоимость (руб.)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Охрана труда для руководителей и специалистов (40 ч.)</td>
+              <td>3 500</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Работы на высоте (24 ч.)</td>
+              <td>4 000</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Оказание первой помощи (16 ч.)</td>
+              <td>2 000</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Пожарная безопасность (28 ч.)</td>
+              <td>3 000</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Промышленная безопасность (72 ч.)</td>
+              <td>6 500</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Электробезопасность (40 ч.)</td>
+              <td>3 500</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Обучение использованию СИЗ (16 ч.)</td>
+              <td>2 500</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Общие вопросы ОТ и СУОТ (16 ч.)</td>
+              <td>2 500</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="doc-list" style="margin-top:var(--space-lg)">
+          <a href="#" class="doc-link">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <span class="doc-link__name">Положение о порядке оказания платных образовательных услуг</span>
+            <span class="doc-link__size">PDF, 340 КБ</span>
+          </a>
+          <a href="#" class="doc-link">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <span class="doc-link__name">Образец договора об оказании платных образовательных услуг</span>
+            <span class="doc-link__size">PDF, 450 КБ</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ============================== -->
+      <!-- 11. ФИНАНСОВАЯ ДЕЯТЕЛЬНОСТЬ     -->
+      <!-- ============================== -->
+      <div class="subsection" id="finance" data-section="finance">
+        <h2 class="subsection__title">Финансово-хозяйственная деятельность</h2>
+
+        <div class="info-card">
+          <div class="info-card__content">
+            <p><strong>Объём образовательной деятельности:</strong></p>
+            <p>• Общий объём образовательной деятельности за 2025 год составил 19 840 учебных часов;</p>
+            <p>• Финансовое обеспечение образовательной деятельности осуществляется за счёт средств физических и юридических лиц по договорам об оказании платных образовательных услуг;</p>
+            <p>• Бюджетное финансирование образовательной деятельности не осуществляется.</p>
+          </div>
+        </div>
+
+        <div class="doc-list">
+          <a href="#" class="doc-link">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <span class="doc-link__name">План финансово-хозяйственной деятельности на 2026 год</span>
+            <span class="doc-link__size">PDF, 890 КБ</span>
+          </a>
+          <a href="#" class="doc-link">
+            <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+            <span class="doc-link__name">Бухгалтерская отчётность за 2025 год</span>
+            <span class="doc-link__size">PDF, 1.1 МБ</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ============================== -->
+      <!-- 12. ВАКАНТНЫЕ МЕСТА             -->
+      <!-- ============================== -->
+      <div class="subsection" id="vacancies" data-section="vacancies">
+        <h2 class="subsection__title">Вакантные места для приёма (перевода) обучающихся</h2>
+
+        <div class="info-card" style="margin-bottom:var(--space-lg)">
+          <div class="info-card__content">
+            <p>Приём на обучение осуществляется в течение всего календарного года по мере формирования учебных групп и поступления заявок.</p>
+            <p>Ограничения по количеству обучающихся определяются вместимостью учебных аудиторий и расписанием занятий.</p>
+          </div>
+        </div>
+
+        <table class="info-table">
+          <thead>
+            <tr>
+              <th>Программа обучения</th>
+              <th>Общее кол-во мест</th>
+              <th>Вакантных мест</th>
+              <th>Ближайшая группа</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Охрана труда (40 ч.)</td>
+              <td>20</td>
+              <td>8</td>
+              <td>01.07.2026</td>
+            </tr>
+            <tr>
+              <td>Работы на высоте (24 ч.)</td>
+              <td>15</td>
+              <td>6</td>
+              <td>15.07.2026</td>
+            </tr>
+            <tr>
+              <td>Первая помощь (16 ч.)</td>
+              <td>20</td>
+              <td>12</td>
+              <td>08.07.2026</td>
+            </tr>
+            <tr>
+              <td>Пожарная безопасность (28 ч.)</td>
+              <td>20</td>
+              <td>10</td>
+              <td>22.07.2026</td>
+            </tr>
+            <tr>
+              <td>Промышленная безопасность (72 ч.)</td>
+              <td>15</td>
+              <td>5</td>
+              <td>05.08.2026</td>
+            </tr>
+            <tr>
+              <td>Электробезопасность (40 ч.)</td>
+              <td>15</td>
+              <td>9</td>
+              <td>29.07.2026</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- ============================== -->
+      <!-- 13. МЕЖДУНАРОДНОЕ СОТРУДНИЧЕСТВО -->
+      <!-- ============================== -->
+      <div class="subsection" id="international" data-section="international">
+        <h2 class="subsection__title">Международное сотрудничество</h2>
+
+        <div class="info-card">
+          <div class="info-card__content">
+            <p>Учебный центр «MAXIMUM» <strong>не осуществляет</strong> международное сотрудничество в сфере образования.</p>
+            <p>Заключённые и планируемые к заключению договоры с иностранными и (или) международными организациями по вопросам образования и науки <strong>отсутствуют</strong>.</p>
+            <p>Международная аккредитация образовательных программ <strong>отсутствует</strong>.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo">
+            <div class="footer__logo-icon">
+              <svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/></svg>
+            </div>
+            <span class="footer__logo-name">УЦ MAXIMUM</span>
+          </a>
+          <p class="footer__desc">
+            Индивидуальный предприниматель Максимов Кирилл Сергеевич<br>Учебный центр охраны труда «MAXIMUM»
+          </p>
+          <p class="footer__desc">
+            ИНН: 180904433971<br>
+            ОГРНИП: 324180000025830
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Навигация</h4>
+          <div class="footer__links">
+            <a href="index.html">Главная</a>
+            <a href="svedeniya.html">Сведения об организации</a>
+            <a href="svedeniya.html#education">Программы обучения</a>
+            <a href="svedeniya.html#documents">Документы</a>
+            <a href="index.html#contacts">Контакты</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Обучение</h4>
+          <div class="footer__links">
+            <a href="#education">Охрана труда</a>
+            <a href="#education">Пожарная безопасность</a>
+            <a href="#education">Первая помощь</a>
+            <a href="#education">Работы на высоте</a>
+            <a href="#education">Промбезопасность</a>
+            <a href="#education">Электробезопасность</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">Контакты</h4>
+          <div class="footer__links">
+            <a href="tel:89124638632">8 (912) 463-86-32</a>
+            <a href="mailto:tehtrud@yandex.ru">tehtrud@yandex.ru</a>
+            <span style="color:var(--primary-400);font-size:0.875rem">427145, УР, Игринский район, п. Игра, ул. Радужная, д.31</span>
+            <span style="color:var(--primary-400);font-size:0.875rem">Пн–Пт: 9:00 – 18:00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__copyright">
+          &copy; 2024–2026 ИП Максимов Кирилл Сергеевич. Все права защищены.
+        </div>
+        <div class="footer__legal">
+          <a href="#">Политика конфиденциальности</a>
+          <a href="#">Пользовательское соглашение</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scroll-top" aria-label="Наверх">
+    <svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
